@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'GKHotKeyView' target in the 'GKHotKeyView' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import "GKKit.h"
+#endif

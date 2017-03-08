@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A08BE571513286E0075406B /* GKActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A08BE3B1513286E0075406B /* GKActivityView.m */; };
+		9A08BE581513286E0075406B /* GKGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A08BE3D1513286E0075406B /* GKGradientLayer.m */; };
+		9A08BE591513286E0075406B /* GKHotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A08BE3F1513286E0075406B /* GKHotKey.m */; };
+		9A08BE5A1513286E0075406B /* GKHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A08BE411513286E0075406B /* GKHotKeyCenter.m */; };
+		9A08BE5B1513286E0075406B /* GKHotKeyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A08BE431513286E0075406B /* GKHotKeyView.m */; };
+		9A08BE5C1513286E0075406B /* GKRoundedPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A08BE461513286E0075406B /* GKRoundedPageView.m */; };
+		9A08BE5D1513286E0075406B /* GKSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A08BE481513286E0075406B /* GKSearchController.m */; };
+		9A08BE5E1513286E0075406B /* NSDate+GKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A08BE4A1513286E0075406B /* NSDate+GKAdditions.m */; };
+		9A08BE5F1513286E0075406B /* NSEvent+GKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A08BE4C1513286E0075406B /* NSEvent+GKAdditions.m */; };
+		9A08BE601513286E0075406B /* NSObject+GKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A08BE4E1513286E0075406B /* NSObject+GKAdditions.m */; };
+		9A08BE611513286E0075406B /* NSString+GKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A08BE501513286E0075406B /* NSString+GKAdditions.m */; };
+		9A08BE621513286E0075406B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A08BE511513286E0075406B /* README.md */; };
+		9A08BE631513286E0075406B /* View+GKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A08BE541513286E0075406B /* View+GKAdditions.m */; };
+		9A3BBA7B12820256004C72A8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3BBA7A12820256004C72A8 /* Cocoa.framework */; };
+		9A3BBA8012820256004C72A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A3BBA7E12820256004C72A8 /* InfoPlist.strings */; };
+		9A3BBA8212820256004C72A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3BBA8112820256004C72A8 /* main.m */; };
+		9A3BBA8512820256004C72A8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3BBA8312820256004C72A8 /* MainMenu.xib */; };
+		9A3BBA8812820256004C72A8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9A3BBA8612820256004C72A8 /* Credits.rtf */; };
+		9A3BBA8B12820256004C72A8 /* GKHotKeyViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3BBA8A12820256004C72A8 /* GKHotKeyViewAppDelegate.m */; };
+		9AAA57D51516BBE600BBF7D2 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAA57D41516BBE600BBF7D2 /* ApplicationServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A08BE381513286E0075406B /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = common.h; path = GKKit/common.h; sourceTree = "<group>"; };
+		9A08BE391513286E0075406B /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = debug.h; path = GKKit/debug.h; sourceTree = "<group>"; };
+		9A08BE3A1513286E0075406B /* GKActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKActivityView.h; path = GKKit/GKActivityView.h; sourceTree = "<group>"; };
+		9A08BE3B1513286E0075406B /* GKActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKActivityView.m; path = GKKit/GKActivityView.m; sourceTree = "<group>"; };
+		9A08BE3C1513286E0075406B /* GKGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKGradientLayer.h; path = GKKit/GKGradientLayer.h; sourceTree = "<group>"; };
+		9A08BE3D1513286E0075406B /* GKGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKGradientLayer.m; path = GKKit/GKGradientLayer.m; sourceTree = "<group>"; };
+		9A08BE3E1513286E0075406B /* GKHotKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKHotKey.h; path = GKKit/GKHotKey.h; sourceTree = "<group>"; };
+		9A08BE3F1513286E0075406B /* GKHotKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKHotKey.m; path = GKKit/GKHotKey.m; sourceTree = "<group>"; };
+		9A08BE401513286E0075406B /* GKHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKHotKeyCenter.h; path = GKKit/GKHotKeyCenter.h; sourceTree = "<group>"; };
+		9A08BE411513286E0075406B /* GKHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKHotKeyCenter.m; path = GKKit/GKHotKeyCenter.m; sourceTree = "<group>"; };
+		9A08BE421513286E0075406B /* GKHotKeyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKHotKeyView.h; path = GKKit/GKHotKeyView.h; sourceTree = "<group>"; };
+		9A08BE431513286E0075406B /* GKHotKeyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKHotKeyView.m; path = GKKit/GKHotKeyView.m; sourceTree = "<group>"; };
+		9A08BE441513286E0075406B /* GKKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKKit.h; path = GKKit/GKKit.h; sourceTree = "<group>"; };
+		9A08BE451513286E0075406B /* GKRoundedPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKRoundedPageView.h; path = GKKit/GKRoundedPageView.h; sourceTree = "<group>"; };
+		9A08BE461513286E0075406B /* GKRoundedPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKRoundedPageView.m; path = GKKit/GKRoundedPageView.m; sourceTree = "<group>"; };
+		9A08BE471513286E0075406B /* GKSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKSearchController.h; path = GKKit/GKSearchController.h; sourceTree = "<group>"; };
+		9A08BE481513286E0075406B /* GKSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKSearchController.m; path = GKKit/GKSearchController.m; sourceTree = "<group>"; };
+		9A08BE491513286E0075406B /* NSDate+GKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+GKAdditions.h"; path = "GKKit/NSDate+GKAdditions.h"; sourceTree = "<group>"; };
+		9A08BE4A1513286E0075406B /* NSDate+GKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+GKAdditions.m"; path = "GKKit/NSDate+GKAdditions.m"; sourceTree = "<group>"; };
+		9A08BE4B1513286E0075406B /* NSEvent+GKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSEvent+GKAdditions.h"; path = "GKKit/NSEvent+GKAdditions.h"; sourceTree = "<group>"; };
+		9A08BE4C1513286E0075406B /* NSEvent+GKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSEvent+GKAdditions.m"; path = "GKKit/NSEvent+GKAdditions.m"; sourceTree = "<group>"; };
+		9A08BE4D1513286E0075406B /* NSObject+GKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+GKAdditions.h"; path = "GKKit/NSObject+GKAdditions.h"; sourceTree = "<group>"; };
+		9A08BE4E1513286E0075406B /* NSObject+GKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+GKAdditions.m"; path = "GKKit/NSObject+GKAdditions.m"; sourceTree = "<group>"; };
+		9A08BE4F1513286E0075406B /* NSString+GKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+GKAdditions.h"; path = "GKKit/NSString+GKAdditions.h"; sourceTree = "<group>"; };
+		9A08BE501513286E0075406B /* NSString+GKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+GKAdditions.m"; path = "GKKit/NSString+GKAdditions.m"; sourceTree = "<group>"; };
+		9A08BE511513286E0075406B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = GKKit/README.md; sourceTree = "<group>"; };
+		9A08BE521513286E0075406B /* singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = singleton.h; path = GKKit/singleton.h; sourceTree = "<group>"; };
+		9A08BE531513286E0075406B /* View+GKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "View+GKAdditions.h"; path = "GKKit/View+GKAdditions.h"; sourceTree = "<group>"; };
+		9A08BE541513286E0075406B /* View+GKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "View+GKAdditions.m"; path = "GKKit/View+GKAdditions.m"; sourceTree = "<group>"; };
+		9A08BE551513286E0075406B /* WebView+GKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "WebView+GKAdditions.h"; path = "GKKit/WebView+GKAdditions.h"; sourceTree = "<group>"; };
+		9A08BE561513286E0075406B /* WebView+GKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "WebView+GKAdditions.m"; path = "GKKit/WebView+GKAdditions.m"; sourceTree = "<group>"; };
+		9A3BBA7712820256004C72A8 /* GKHotKeyView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKHotKeyView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3BBA7A12820256004C72A8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9A3BBA7C12820256004C72A8 /* GKHotKeyView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GKHotKeyView-Info.plist"; sourceTree = "<group>"; };
+		9A3BBA7D12820256004C72A8 /* GKHotKeyView_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKHotKeyView_Prefix.pch; sourceTree = "<group>"; };
+		9A3BBA7F12820256004C72A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9A3BBA8112820256004C72A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A3BBA8412820256004C72A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9A3BBA8712820256004C72A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9A3BBA8912820256004C72A8 /* GKHotKeyViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKHotKeyViewAppDelegate.h; sourceTree = "<group>"; };
+		9A3BBA8A12820256004C72A8 /* GKHotKeyViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKHotKeyViewAppDelegate.m; sourceTree = "<group>"; };
+		9AAA57D41516BBE600BBF7D2 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A3BBA7412820256004C72A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAA57D51516BBE600BBF7D2 /* ApplicationServices.framework in Frameworks */,
+				9A3BBA7B12820256004C72A8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A08BE65151328730075406B /* GKKit */ = {
+			isa = PBXGroup;
+			children = (
+				9A08BE381513286E0075406B /* common.h */,
+				9A08BE391513286E0075406B /* debug.h */,
+				9A08BE3A1513286E0075406B /* GKActivityView.h */,
+				9A08BE3B1513286E0075406B /* GKActivityView.m */,
+				9A08BE3C1513286E0075406B /* GKGradientLayer.h */,
+				9A08BE3D1513286E0075406B /* GKGradientLayer.m */,
+				9A08BE3E1513286E0075406B /* GKHotKey.h */,
+				9A08BE3F1513286E0075406B /* GKHotKey.m */,
+				9A08BE401513286E0075406B /* GKHotKeyCenter.h */,
+				9A08BE411513286E0075406B /* GKHotKeyCenter.m */,
+				9A08BE421513286E0075406B /* GKHotKeyView.h */,
+				9A08BE431513286E0075406B /* GKHotKeyView.m */,
+				9A08BE441513286E0075406B /* GKKit.h */,
+				9A08BE451513286E0075406B /* GKRoundedPageView.h */,
+				9A08BE461513286E0075406B /* GKRoundedPageView.m */,
+				9A08BE471513286E0075406B /* GKSearchController.h */,
+				9A08BE481513286E0075406B /* GKSearchController.m */,
+				9A08BE491513286E0075406B /* NSDate+GKAdditions.h */,
+				9A08BE4A1513286E0075406B /* NSDate+GKAdditions.m */,
+				9A08BE4B1513286E0075406B /* NSEvent+GKAdditions.h */,
+				9A08BE4C1513286E0075406B /* NSEvent+GKAdditions.m */,
+				9A08BE4D1513286E0075406B /* NSObject+GKAdditions.h */,
+				9A08BE4E1513286E0075406B /* NSObject+GKAdditions.m */,
+				9A08BE4F1513286E0075406B /* NSString+GKAdditions.h */,
+				9A08BE501513286E0075406B /* NSString+GKAdditions.m */,
+				9A08BE511513286E0075406B /* README.md */,
+				9A08BE521513286E0075406B /* singleton.h */,
+				9A08BE531513286E0075406B /* View+GKAdditions.h */,
+				9A08BE541513286E0075406B /* View+GKAdditions.m */,
+				9A08BE551513286E0075406B /* WebView+GKAdditions.h */,
+				9A08BE561513286E0075406B /* WebView+GKAdditions.m */,
+			);
+			name = GKKit;
+			sourceTree = "<group>";
+		};
+		9A3BBA6812820256004C72A8 = {
+			isa = PBXGroup;
+			children = (
+				9A3BBA6F12820256004C72A8 /* Classes */,
+				9A08BE65151328730075406B /* GKKit */,
+				9A3BBA7012820256004C72A8 /* Other Sources */,
+				9A3BBA7112820256004C72A8 /* Resources */,
+				9A3BBA7212820256004C72A8 /* Frameworks */,
+				9A3BBA7812820256004C72A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A3BBA6F12820256004C72A8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9A3BBA8912820256004C72A8 /* GKHotKeyViewAppDelegate.h */,
+				9A3BBA8A12820256004C72A8 /* GKHotKeyViewAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9A3BBA7012820256004C72A8 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9A3BBA7D12820256004C72A8 /* GKHotKeyView_Prefix.pch */,
+				9A3BBA8112820256004C72A8 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		9A3BBA7112820256004C72A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A3BBA7C12820256004C72A8 /* GKHotKeyView-Info.plist */,
+				9A3BBA7E12820256004C72A8 /* InfoPlist.strings */,
+				9A3BBA8312820256004C72A8 /* MainMenu.xib */,
+				9A3BBA8612820256004C72A8 /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9A3BBA7212820256004C72A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AAA57D41516BBE600BBF7D2 /* ApplicationServices.framework */,
+				9A3BBA7A12820256004C72A8 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A3BBA7812820256004C72A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A3BBA7712820256004C72A8 /* GKHotKeyView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A3BBA7612820256004C72A8 /* GKHotKeyView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3BBA8E12820256004C72A8 /* Build configuration list for PBXNativeTarget "GKHotKeyView" */;
+			buildPhases = (
+				9A3BBA7312820256004C72A8 /* Sources */,
+				9A3BBA7412820256004C72A8 /* Frameworks */,
+				9A3BBA7512820256004C72A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKHotKeyView;
+			productName = GKHotKeyView;
+			productReference = 9A3BBA7712820256004C72A8 /* GKHotKeyView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A3BBA6A12820256004C72A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "GK Apps";
+			};
+			buildConfigurationList = 9A3BBA6D12820256004C72A8 /* Build configuration list for PBXProject "GKHotKeyView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9A3BBA6812820256004C72A8;
+			productRefGroup = 9A3BBA7812820256004C72A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A3BBA7612820256004C72A8 /* GKHotKeyView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A3BBA7512820256004C72A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3BBA8012820256004C72A8 /* InfoPlist.strings in Resources */,
+				9A3BBA8512820256004C72A8 /* MainMenu.xib in Resources */,
+				9A3BBA8812820256004C72A8 /* Credits.rtf in Resources */,
+				9A08BE621513286E0075406B /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A3BBA7312820256004C72A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3BBA8212820256004C72A8 /* main.m in Sources */,
+				9A3BBA8B12820256004C72A8 /* GKHotKeyViewAppDelegate.m in Sources */,
+				9A08BE571513286E0075406B /* GKActivityView.m in Sources */,
+				9A08BE581513286E0075406B /* GKGradientLayer.m in Sources */,
+				9A08BE591513286E0075406B /* GKHotKey.m in Sources */,
+				9A08BE5A1513286E0075406B /* GKHotKeyCenter.m in Sources */,
+				9A08BE5B1513286E0075406B /* GKHotKeyView.m in Sources */,
+				9A08BE5C1513286E0075406B /* GKRoundedPageView.m in Sources */,
+				9A08BE5D1513286E0075406B /* GKSearchController.m in Sources */,
+				9A08BE5E1513286E0075406B /* NSDate+GKAdditions.m in Sources */,
+				9A08BE5F1513286E0075406B /* NSEvent+GKAdditions.m in Sources */,
+				9A08BE601513286E0075406B /* NSObject+GKAdditions.m in Sources */,
+				9A08BE611513286E0075406B /* NSString+GKAdditions.m in Sources */,
+				9A08BE631513286E0075406B /* View+GKAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A3BBA7E12820256004C72A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A3BBA7F12820256004C72A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9A3BBA8312820256004C72A8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A3BBA8412820256004C72A8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		9A3BBA8612820256004C72A8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A3BBA8712820256004C72A8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A3BBA8C12820256004C72A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9A3BBA8D12820256004C72A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9A3BBA8F12820256004C72A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GKHotKeyView_Prefix.pch;
+				INFOPLIST_FILE = "GKHotKeyView-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9A3BBA9012820256004C72A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GKHotKeyView_Prefix.pch;
+				INFOPLIST_FILE = "GKHotKeyView-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A3BBA6D12820256004C72A8 /* Build configuration list for PBXProject "GKHotKeyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3BBA8C12820256004C72A8 /* Debug */,
+				9A3BBA8D12820256004C72A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A3BBA8E12820256004C72A8 /* Build configuration list for PBXNativeTarget "GKHotKeyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3BBA8F12820256004C72A8 /* Debug */,
+				9A3BBA9012820256004C72A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A3BBA6A12820256004C72A8 /* Project object */;
+}

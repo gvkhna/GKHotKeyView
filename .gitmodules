@@ -1,0 +1,3 @@
+[submodule "GKKit"]
+	path = GKKit
+	url = git://github.com/gauravk92/GKKit.git

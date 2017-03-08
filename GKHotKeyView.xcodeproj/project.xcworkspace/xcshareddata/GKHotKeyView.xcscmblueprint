@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "795E9C726F95DDB986D27E50C4580A3AE2203156",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "064C2B96B5791D1342D0A98F7DAA5E853B56DDCF" : 9223372036854775807,
+    "795E9C726F95DDB986D27E50C4580A3AE2203156" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6B419E2E-F524-4954-8E65-1BF0838533D8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "064C2B96B5791D1342D0A98F7DAA5E853B56DDCF" : "GKHotKeyView\/GKKit\/",
+    "795E9C726F95DDB986D27E50C4580A3AE2203156" : "GKHotKeyView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GKHotKeyView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GKHotKeyView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:gauravk92\/GKKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "064C2B96B5791D1342D0A98F7DAA5E853B56DDCF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:gauravk92\/GKHotKeyViewApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "795E9C726F95DDB986D27E50C4580A3AE2203156"
+    }
+  ]
+}
